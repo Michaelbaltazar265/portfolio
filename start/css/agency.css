@@ -695,5 +695,14 @@ ul.social-buttons {
 
 footer { 
   background-color: #212529;
+} 
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
+
+
 
