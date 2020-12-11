@@ -704,5 +704,12 @@ footer {
   display: flex;
 }
 
+.col-sm-6 .portfolio-item{ 
+  background-color: #fff;;
+  list-style-type:none;
+  display: flex;
+  flex-flow: row wrap;
+
+}
 
 
