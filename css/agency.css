@@ -726,6 +726,13 @@ footer {
 
 } 
 
+.portfolio-header{ 
+  padding: 40px;
+}
 
+.img-fluid { 
+  height: 200px;
+
+}
 
 
