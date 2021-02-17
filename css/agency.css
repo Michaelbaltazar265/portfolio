@@ -799,7 +799,6 @@ footer {
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
- 
 }
 
 .portfolio-header {
@@ -808,6 +807,7 @@ footer {
 
 .img-fluid {
   height: 200px;
+  max-width: 100%
 }
 
 .blue {
@@ -816,8 +816,8 @@ footer {
 
 .project-items { 
   max-width: 350px;
-  margin: 10 auto;
-  padding: 15px;
+  margin: 0 auto;
+  padding: 25px;
   text-align: center;
   background-color: #fff;
   box-shadow: 2px 2px 4px rgb(65, 63, 63); 
@@ -870,11 +870,6 @@ a:hover {
 	-webkit-background-clip: text;
     -webkit-text-fill-color: #0000;
 } 
-
-.col-md-4 { 
-  padding: 20px;
-  margin: 20px;
-}
 
 
 @keyframes rainbow-text  {
