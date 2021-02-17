@@ -791,7 +791,7 @@ footer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: flex; 
 }
 
 .col-sm-6 .portfolio-item {
@@ -799,6 +799,7 @@ footer {
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
+ 
 }
 
 .portfolio-header {
@@ -814,20 +815,20 @@ footer {
 }
 
 .project-items { 
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 25px;
+  max-width: 350px;
+  margin: 10 auto;
+  padding: 15px;
   text-align: center;
   background-color: #fff;
-
   box-shadow: 2px 2px 4px rgb(65, 63, 63); 
     padding: 1rem;
     margin-top: 2rem !important;
 }
 .links { 
-  padding: 25px;
+  padding: 5px;
   display: flex;
   align-items: center;
+  text-align: center;
 } 
 .live-links { 
   padding: 10px;
@@ -840,8 +841,6 @@ a:hover {
   height: 20rem;
   margin-bottom: 8rem;
 } 
-
-
 
 .fa-inverse { 
   background-color: #b1e3e4;
@@ -870,7 +869,13 @@ a:hover {
 	background-clip: text;
 	-webkit-background-clip: text;
     -webkit-text-fill-color: #0000;
+} 
+
+.col-md-4 { 
+  padding: 20px;
+  margin: 20px;
 }
+
 
 @keyframes rainbow-text  {
 	0% { background-position: 0 0 }
